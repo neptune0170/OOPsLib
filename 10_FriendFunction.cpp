@@ -20,6 +20,9 @@ class Human{
    }
    //we have to initalize friend Function inside a class
    friend void display(Human man);
+
+   //to make another class as a friend of this class we make this change
+   //friend class [className]
 };
 
 void display(Human man)
