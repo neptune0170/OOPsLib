@@ -3,7 +3,7 @@
 // meaning to the user-defined data type. Operator overloading
 //is used to overload or redefines most of the operators available in C++.
 
-// These operator can't be orerloaded
+// These operator can't be overloaded
 // Scope operator (::)
 // Sizeof
 // member selector(.)
@@ -30,7 +30,7 @@ class Marks{
         cout<<intmarks<<" "<<extmarks<<endl;
     }
 // [Type] operator op/sy + [value ]
-    Marks operator  +    (Marks m){
+    Marks operator  +   (Marks m){
         Marks temp;
         temp.intmarks =intmarks+m.intmarks;
         temp.extmarks=extmarks+m.extmarks;
